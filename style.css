@@ -47,7 +47,7 @@ button {
 
 .header{
     background-color: black;
-    padding: 0px 75px;
+    padding: 0px 76px;
     
 }
 .header-content{
@@ -149,7 +149,7 @@ padding: 20px 0px 20px 0px;
 .featured-section{
     background-color: black;
     color: white;
-    padding: 20px 76px;;
+    padding: 20px 76px 20px 114px;
 }
 .featured-heading{
 font-weight: 500;
@@ -159,13 +159,14 @@ letter-spacing: 0px;
 text-align: center;
 vertical-align: middle;
 color: rgba(255, 255, 255, 1);
+margin-bottom: 74px;
 }
 .featured-content{
     display: flex;
     gap: 28px;
 }
 .featured-text{
-    border: 2px solid white;
+    border: 1px solid grey;
     border-radius: 28px;
     
 }
@@ -188,7 +189,7 @@ vertical-align: middle;
 .punks-section{
     background-color: black;
     color: rgba(255, 255, 255, 1);
-    padding: 130px 76px 0px;
+    padding: 130px 76px 0px 114px;
    display: grid;
    grid-template-columns: 1.5fr 1fr;
 
@@ -228,9 +229,9 @@ border-radius: 100px;
 .punk-article{
     background-color: black;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 130px 76px 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 130px 76px 130px 114px;
     border-radius: 0px 0px 20px 20px;
     gap: 93px;
 }
@@ -251,7 +252,7 @@ vertical-align: middle;
 }
 .largest-sale_section,
 .recent-transation_section{
-    margin: 76px;
+    margin: 76px 76px 76px 114px;
 }
 .largest-sale-heading{
     display: flex;
@@ -341,7 +342,7 @@ margin-top: 19px;
 }
 .how-punk{
     background-color: #000;
-    padding: 157px 75px;
+    padding: 157px 75px 157px 114px;
 }
 .how-punk-container{
     display: grid;
@@ -406,7 +407,7 @@ color: rgba(255, 255, 255, 0.8);
     background-color: #000;
 }
 .faq-content{
-    padding: 130px 76px;
+    padding: 130px 76px 130px 114px;
 }
 .faq-content h6{
 font-weight: 500;
@@ -455,7 +456,7 @@ margin-bottom: 68px;
 }
 footer{
     background-color: #000;
-    padding: 74px;
+    padding: 74px 76px 74px 114px;
 }
 .footer-header{
     display: flex;
