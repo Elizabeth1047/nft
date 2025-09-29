@@ -127,6 +127,7 @@ vertical-align: middle;
 border-radius: 100px;
 border: none;
 padding: 13px 40px 14px 38px;
+background-color: rgba(255, 255, 255, 1);
 }
 .mint-bold-text{
 font-weight: 700;
@@ -262,6 +263,7 @@ vertical-align: middle;
 .recent-transation-heading{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .largest-sale-heading h4,
 .recent-transation-heading h4{
@@ -288,8 +290,6 @@ line-height: 31px;
 letter-spacing: 0%;
 vertical-align: middle;
 color: rgba(86, 86, 86, 1);
-
-    margin-bottom: 93px;
 }
 .gallary-carousel{
     display: flex;
@@ -343,6 +343,7 @@ margin-top: 19px;
 .how-punk{
     background-color: #000;
     padding: 157px 75px 157px 114px;
+    border-radius: 32px 32px 0px 0px;
 }
 .how-punk-container{
     display: grid;
@@ -409,7 +410,7 @@ color: rgba(255, 255, 255, 0.8);
 .faq-content{
     padding: 130px 76px 130px 114px;
 }
-.faq-content h6{
+.faq-content-head{
 font-weight: 500;
 font-style: Medium;
 font-size: 54px;
@@ -479,19 +480,78 @@ footer{
 .mobile{
     display: none;
 }
-@media (min-width: 390px) and (max-width: 1000px) {
- .nav-list{
+@media (min-width: 360px) and (max-width: 1000px) {
+    .header {
+        padding: 16px 20px;
+    }
+    .header-content {
+        padding: 0px;
+    }
+    .nav-list{
     display: none;
 
  }
  .mobile-nav{
     display: block;
  }
+ .h1-content {
+    padding: 63px 20px;
+}
+.h1-content h1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 47px;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+.h1-content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+.featured-section {
+    padding: 63px 20px 20px 20px;
+}
+.featured-heading {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 39px;
+}
  .featured-content{
    flex-wrap: wrap;
 }
+.featured-text-title {
+    padding: 20px 20px;
+}
+.featured-p-text {
+    font-size: 17px;
+    line-height: 26px;
+    padding: 0px;
+    margin: 12px 0px 0px 0px;
+}
+.featured-text-link {
+    padding: 16px 20px;
+    align-items: center;
+}
+.featured-text-link p {
+   margin: 0px;
+}
 .punks-section{
    display: block;
+   padding: 130px 19px 0px 19px;
 
 }
 .punks-btn{
@@ -502,9 +562,13 @@ footer{
  }
  .punk-article{
     display: block;
+    padding: 86px 19px 130px 19px;
 }
 .punk-imag{
     margin-top: 47px;
+}
+.largest-sale_section, .recent-transation_section {
+    margin: 76px 18px 76px 19px;
 }
 .largest-sale-heading,
 .recent-transation-heading{
@@ -514,17 +578,55 @@ footer{
 .largest-sale-heading h4,
 .recent-transation-heading h4{
     margin-bottom: 31px;
+    font-size: 32px;
+    line-height: 42px;
 }
 .how-punk-container{
     display: block;
 }
 .how-punk-container h5{
     margin-bottom: 71px;
+    font-size: 29px;
+    line-height: 38px;
     
     
     }
+    .punks-heading {
+        font-size: 33px;
+        line-height: 42px;
+    }
+    .art-1, .art-2, .art-3 {
+        font-size: 20px;
+        line-height: 33px;
+        padding: 21px 42px 21px 21px;
+    }
+    .how-punk {
+        padding: 62px 19px 62px 19px;
+    }
+.text1{
+    font-size: 17px;
+    line-height: 26px
+}
+.text2{
+    font-size: 16px;
+}
+.faq-content {
+    padding: 80px 19px 80px 19px;
+}
+.faq-content-head {
+    font-size: 34px;
+    line-height: 42px;
+}
     .faq-questions-answers{
         display: block;
+    }
+    .faq-questions-answers h6 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .faq-questions-answers p {
+        font-size: 14.63px;
+        line-height: 23.45px;
     }
     .footer-header{
       display: block;
